@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://code.jquery.com https://ssl.gstatic.com https://apisandbox.openbankproject.com 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://code.jquery.com; style-src 'self'  'unsafe-inline' https://code.jquery.com; media-src *; img-src 'self' https://code.jquery.com data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js" id="cordova-jquery"></script>
+        <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <link rel="stylesheet" href="css/index.css">
+        <title>Welcome To Accounts</title>
+    </head>
+    <body>
+       <div class="main">
+
+            <header>
+                <nav>
+                    <div class="logo-container">
+                        <p class="logo">Online Banking</p>
+                    </div>
+                    <div>
+                     <button id="SignOutButton">SignOut</button>
+                    </div>
+                </nav>
+            </header>
+
+                <div id="OBP1">
+                   <button id="DataButton">Query Banks</button>
+                      <div id="table-container">
+                           <table  id="sortableTable" data-role="table" class="table-stripe ui-responsive tablestyle">
+                               <thead>
+                               <tr><th>Name</th><th>Action</th></tr>
+                               </thead>
+                               <tbody id="AccountTableBody">
+                               </tbody>
+                           </table>
+                      </div>
+                   
+                </div>
+
+              <div id="footer">
+                <p>&copy; 2024 Company Name. All rights reserved.</p>
+              </div>
+        </div>
+        
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

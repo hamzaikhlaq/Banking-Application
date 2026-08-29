@@ -1,0 +1,334 @@
+
+/* Body tag styling */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0px;
+    padding:0px;
+}
+
+
+
+/* h1 and h3 tags styling */
+
+h1,h3 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:hidden;
+    padding:0px;
+    text-align:center;
+    font-color: white;
+}
+
+
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+      /* Index.html page styling */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+
+
+
+/* Login Error Response color selection */
+
+#loginResponse{
+        color:red;
+}
+
+
+
+/* Login form position and styling */
+
+#loginForm {
+    background: white;
+    border-radius: 10px;
+    width: 350px; 
+    height: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    margin: auto;
+    padding: 10px;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: 1px solid grey;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.8); /* Horizontal offset, vertical offset, blur radius, color */
+}
+
+
+
+/* P tag styling in login form */
+
+#loginForm p {
+    font-size:16px;
+    font-weight:normal;
+    margin:0px;
+    overflow:hidden;
+    padding:0px;
+    text-align:center;
+    font-color: white;
+}
+
+/* Headings position and color style in login form */
+
+#loginForm h1,h3 {
+    text-align: center;
+    font-color: white;
+}
+
+
+/* Login form input fields styling */
+
+#loginForm input[type="text"],
+#loginForm input[type="password"] {
+    width: 100%;
+    padding: 15px 0px 15px 15px;
+    margin: 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+
+/* Login form input field margin */
+
+#formInput1{
+    margin-bottom: 10px;
+}
+
+/* Login form input field margin */
+
+#formInput2{
+    margin-bottom: 10px;
+}
+
+
+/* Login form button style */
+
+#loginForm button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #313037;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+/* Login form button hover effect */
+
+#loginForm button:hover {
+    background-color: #1C1C1E;
+}
+
+
+/* Logo styling of index.html page */
+
+.logoText {
+    font-size: 24px; /* Size of the logo text */
+    font-weight: bold; /* Make the logo text bold */
+    text-align: center; /* Center the logo text */
+    margin: 0 auto 20px; /* Spacing around the logo text */
+    color: #313037; /* Color of the logo text */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); 
+    font-family: 'Arial', sans-serif; /* Font of the logo text */
+}
+
+
+
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+      /* data.html page styling */
+/* ////////////////////////////////////// */
+/* ////////////////////////////////////// */
+
+
+
+
+/* Header Styling */
+
+
+header {
+    background-color: #313037;
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+/* Nav bar Styling */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 7px 7px 7px;
+    margin: 0;
+}
+
+
+
+/* Header logo Styling */
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Signout button styling */
+
+#signOutButton {
+    background-color: #313037;
+    color: white;
+    border: 2px solid white;
+    padding: 7px 8px;
+    cursor: pointer;
+    width: 100px;
+    transition: background-color 0.3s ease;
+}
+
+/* Signout button hover effect */
+
+#signOutButton:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1); /* Increase the size of the button on hover */
+}
+
+
+/* Footer Styling */
+
+#footer {
+    background-color: #313037;
+    color: white;
+    text-align: center;
+    padding: 3px 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Div styling which contains Bank data button and table view */
+
+
+#OBP1{
+    margin: 10px;
+    margin-bottom: 70px;
+}
+
+#mainButtonDiv{
+    margin: 10px;
+}
+
+#mainButtonDiv button{
+    display: inline-block;
+}
+/* homeButton button Styling */
+
+#homeButton{
+    background-color: black;
+    color: white;
+    width: 160px;
+    margin-right: 10px;
+    padding: 0;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+
+/* homeButton button hover effect */
+
+#homeButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* GetBankData button Styling */
+
+#dataButton{
+    background-color: black;
+    color: white;
+    width: 160px;
+    margin-right: 0;
+    padding: 0;
+    border: 2px solid black;
+    padding: 4px;
+}
+
+
+/* GetBankData button hover effect */
+
+#dataButton:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Table button styling */
+
+#OBP1 button{
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    width: 150px;
+}
+
+/* Table button hover effect */
+
+#OBP1 button:hover{
+    background-color: white;
+    color: black;
+}
+
+
+/*Table div Styling*/
+
+.tableContainer {
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+/* Table header styling */
+
+th {
+    padding: 6px 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black; 
+}
+
+
+/* Table data styling to show border of cells*/
+
+td{
+    border: 1px solid black;
+}
+
+/* Table header color*/
+
+thead {
+    background-color: #313037;
+    color: #ffffff;
+}
+
+
+/* Odd number table row color */
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+/* Table row hover background color */
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+

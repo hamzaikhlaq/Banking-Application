@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' data: gap: https://code.jquery.com https://ssl.gstatic.com https://apisandbox.openbankproject.com 'unsafe-eval'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://code.jquery.com; style-src 'self'  'unsafe-inline' https://code.jquery.com; media-src *; img-src 'self' https://code.jquery.com data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js" id="cordova-jquery"></script>
+        <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <title>Login To Online Banking</title>
+    </head>
+    <body>
+        <div class="main">
+               <div id="loginForm">
+                     <h1 class="logoText">Online Banking</h1>
+
+                     <div id="formInput1">
+                        <input type="text" id="uname" placeholder="Enter Username" autocomplete="username">
+                     </div>
+                     
+                     <div id="formInput2">
+                        <input type="password" id="pwd" placeholder="Enter Password" autocomplete="current-password">
+                     </div>
+                     
+                     <button id="loginButton">Login</button>
+                    
+                     <p id="loginResponse"></p>
+               </div>
+        </div>
+        <script src="cordova.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
